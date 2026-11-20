@@ -387,7 +387,7 @@ class PDF::Toolkit
     end
     retval
   ensure
-    File.unlink(tmp) if tmp && File.exists?(tmp)
+    File.unlink(tmp) if tmp && File.exist?(tmp)
   end
 
   def update

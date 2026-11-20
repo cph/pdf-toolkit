@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.rubyforge_project = 'pdf-toolkit'
   s.homepage = "http://pdf-toolkit.rubyforge.org"
 
-  s.has_rdoc = true
   s.require_path = 'lib'
 
   s.files = [ "Rakefile", "README.md", "pdf-toolkit.gemspec" ]
